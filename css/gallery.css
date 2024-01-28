@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/bgpic2.png);
+    background-position:top ;
+    background-size:cover ;
+    background-attachment: fixed;
+    padding: 10px 10%;
+    overflow: hidden;
+    opacity: 1;
+    position: relative;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 10px;
+    width: 160px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 91, 172);
+    font-weight: 400;
+}
+nav div a{
+    text-decoration: none;
+    color: rgb(0, 91, 172);
+    font-weight: 400;
+    margin-right: 15px;
+}
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #2fc4ff, #6f56ff);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    transition: 0.3s;
+}
+.content{
+    margin-top: 5%;
+    max-width: 735px;
+}
+.content h1{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+.content p{
+    margin: 10px 0 30px;
+    line-height: 1.5 ;
+    color: rgb(0, 0, 0);
+    animation-delay: 0.5s;
+    font-weight: bold;
+}
+.content .btn1{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.btn1:hover{
+    border-top-right-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    color: white
+    ;
+}
+.carousel{
+    margin-left: 180px;
+    width: 735px;
+    height: 414px;
+    border-radius: 30px;
+}
+
+.hr{
+    width: 2000px;
+}
+
+
+.media{
+    float: right;
+    margin-right: 40%;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.media h1{
+    padding-right: 20px;
+}
+
+#play{
+    width: 80px;
+    cursor: pointer;
+}
